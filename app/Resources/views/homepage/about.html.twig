@@ -1,0 +1,197 @@
+<!Doctype html>
+<html>
+    <head>
+        <script src="{{ asset('js/jquery-3.3.1.min.js') }}" ></script>
+        <script src="{{ asset('js/popper.min.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.min.js')}}" ></script>
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/homepage.css') }}" />
+        <meta charset="URF-8">
+        <title>O mnie</title>
+    </head>
+
+    <body>
+        <div class="alert alert-success" role="alert">
+            This is a success alert—check it out!
+        </div>
+        <div class="header">
+            <p class="header-text">Hej, jestem Damian i interesuję się technologią. Lubię moją szkołę i z chęcią do niej uczęszczam.</p>
+        </div>
+    <center><a href="https://time.is/Warsaw" id="time_is_link" rel="nofollow" style="font-size:32px;background:lightblue">Aktualny czas w Warszawa:</a>
+<span id="Warsaw_z733" style="font-size:32px;background:lightblue"></span>
+<script src="//widget.time.is/pl.js"></script>
+<script>
+time_is_widget.init({Warsaw_z733:{template:"TIME<br>DATE", time_format:"hours:minutes", date_format:"year-monthnum-daynum"}});
+</script>
+    </center>
+
+        <div>
+            
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#whatilike" aria-expanded="false" aria-controls="collapseExample">
+                Co lubię robić?
+            </button>
+        </p>
+        <div class="collapse" id="whatilike">
+            <div class="card card-body">
+                Oczywiście jeść i oddychać, ale lubie też pływać jeździć na rowerze czy oglądać seriale.
+            </div>
+        </div>
+    </div>
+
+           <div>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#whatido" aria-expanded="false" aria-controls="collapseExample">
+                Czym się zajmuję?
+            </button>
+        </p>
+        <div class="collapse" id="whatido">
+            <div class="card card-body">
+                Narazie niczym :-) chodze do szkoły.
+            </div>
+        </div>
+    </div>
+        
+      <div>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#versus" aria-expanded="false" aria-controls="collapseExample">
+                Czy wolę Windows'a niz MacOS?
+            </button>
+        </p>
+        <div class="collapse" id="versus">
+            <div class="card card-body">
+                Tak, ponieważ na Windowsa jest więcej gier.
+            </div>
+        </div>
+    </div>
+        <div>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#drivelicence" aria-expanded="false" aria-controls="collapseExample">
+                Czy mam prawo jazdy?
+            </button>
+        </p>
+        <div class="collapse" id="drivelicence">
+            <div class="card card-body">
+                Tak i planuję ich nie stracić ;-).
+            </div>
+        </div>
+    </div>
+   
+    <div>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#favouritecolour" aria-expanded="false" aria-controls="collapseExample">
+                Mój ulubiony kolor?
+            </button>
+        </p>
+        <div class="collapse" id="favouritecolour">
+            <div class="card card-body">
+                Myślę, że niebieski to muj ulubiony kolor.
+                
+              
+            </div>
+        </div>
+    </div>
+        
+    <center><div class="card" style="width: 18rem;">
+  <img class="card-img-top" <img src="{{ asset('img/szkola3.jpg') }}"/> 
+  <div class="card-body">
+    <h5 class="card-title">Moja szkoła</h5>
+    <p class="card-text">Znajduje sie dosyć blisko mojego domu i jest w Białymstoku.</p>
+    
+  </div>
+</div>
+  </center>
+    <br>
+    <br>
+    
+        
+
+<div class="header">
+            <p class="header-text">Wady i zalety obu systemów operacyjnych</p>
+        </div>
+<center><img src="{{ asset('img/macosvswin.jpg') }}"/></center>
+
+<script type="text/javascript" src="http://404bajery.pl/pada/custom.php?flake=3"></script><a href="http://www.gry.netbus.pl" target="_blank" title="Gry Online"><img src="http://404bajery.pl/pada/3.gif" border="0" alt="gry online" style="position:absolute; top: 0px; left: 0px;" /></a>
+<br>
+<br>
+<br>
+
+<div>
+            <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#macadvantages" aria-expanded="false" aria-controls="collapseExample">
+                Zalety MacOS
+            </button>
+        </p>
+        <div class="collapse" id="macadvantages">
+            <div class="card card-body">
+                - sprawdzony hardware</br>
+                - przyjazne środowisko</br>
+                - licencja na Mac OS X wraz ze sprzętem</br>
+                - po wyjęciu z pudełka od razu gotowe do użycia</br>
+                - możliwość instalacji Windowsa jak i Lunuksa (na win np nie zainstalujemy Mac OS X)</br>
+                - znacznie mniejsza liczba wirusów</br>
+                - stabilność systemu</br>
+                - inteligętna bezprzewodowa wymiana danych z telefonami marki Apple</br>
+                - powolne "starzenie" się systemu (po kilku latach możemy nie zauważyć spadku w wydajności)
+                
+            </div>
+        </div>
+    </div> 
+
+<div>
+            <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#macdisadvantages" aria-expanded="false" aria-controls="collapseExample">
+                Wady MacOS
+            </button>
+        </p>
+        <div class="collapse" id="macdisadvantages">
+            <div class="card card-body">
+                - mała możliwość ingerencji w system</br>
+                - nieprzystosowanie do gier</br>
+                - brak możliwości własnoręcznej naprawy</br>
+                - konieczność stosowania przejściówek z uwagi na mało popularne porty </br>
+                - otwieranie i maksymalizowanie okien</br>
+                - sposób odinstalowywania programów</br>
+                - brak wycinania plików</br>
+                - otwieranie i zamykanie aplikacji</br>
+                
+            </div>
+        </div>
+    </div> 
+
+<div>
+            <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#winadvantages" aria-expanded="false" aria-controls="collapseExample">
+                Zalety Windows
+            </button>
+        </p>
+        <div class="collapse" id="winadvantages">
+            <div class="card card-body">
+                - możliwość ingerencji w system</br>
+                - dobre przystosowanie do gier </br>
+                - możliwość własnoręcznej naprawy (duża dostępność części)</br>
+                - wielozadaniowość </br>
+                - wiele okien (multi-window)</br>
+                - dostępność większej ilości oprogramowań</br>
+                - windows store</br>
+                - możliwość dogłębnej personalizacji</br>
+                
+            </div>
+        </div>
+    </div> 
+
+<div>
+            <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#windisadvantages" aria-expanded="false" aria-controls="collapseExample">
+                Wady Windows
+            </button>
+        </p>
+        <div class="collapse" id="windisadvantages">
+            <div class="card card-body">
+                - słaba optymalizacja z uwagi na to na ilu komputerach jest instalowany </br>
+                - częste crashe </br>
+                - bugi systemowe</br>
+                - słaba intuicyjność </br>
+                - podczas zakupu pc musimy zakupić dodatkowo sam system</br>
+                - wysoka cena samego systemu</br>
+                - uciążliwy windows update</br>
+                - spowolnienie systemu po dłuższym czasie użytkowania</br>
+                - brak możliwości zainstalowanie MacOS
+            </div>
+        </div>
+    </div> 
+
+<div id="404l">trwa inicjalizacja, prosze czekac... </div></div><script type="text/javascript" src="http://404bajery.pl/licznik/licz.php?id=14024715&start=1&min=5&mode=views&typ=2"></script>
+</body>
+</html>
